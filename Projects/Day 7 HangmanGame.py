@@ -1,5 +1,6 @@
 #There seems to be few errors in this code try figuring ot out, I'll try to figure it out as soon as possible
 import random
+from replit import clear
 
 stages = [''' 
     _ _ _ _ _ _ _ _
@@ -93,6 +94,7 @@ for i in range(word_len):
 
 while not end_of_game:
     guess = input("Guess a character: ").lower()
+    clear()
 
     if guess in display:
         print(f"You have already guessed {guess}")
