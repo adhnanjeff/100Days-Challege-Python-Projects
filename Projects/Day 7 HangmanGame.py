@@ -1,3 +1,4 @@
+#There seems to be few errors in this code try figuring ot out, I'll try to figure it out as soon as possible
 import random
 
 stages = [''' 
