@@ -15,7 +15,7 @@ for i in range(0, 6):
     tim.penup()
     tim.color(colors[i])
     tim.goto(x = -230, y = y_pos[i])
-    all_turtle.append(tim)  
+    all_turtle.append(tim)
 
 if user:
     is_race_on = True
