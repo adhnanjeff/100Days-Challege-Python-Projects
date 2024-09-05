@@ -1,7 +1,7 @@
 from turtle import *
 from snake import Snake
 from food import *
-from scoreboard import *
+from scoreboard import * 
 import time
 
 # Initialize the screen
