@@ -3,7 +3,7 @@ from snake import Snake
 from food import *
 from scoreboard import * 
 import time 
-
+ 
 # Initialize the screen
 screen = Screen()
 screen.setup(width=600, height=600)
