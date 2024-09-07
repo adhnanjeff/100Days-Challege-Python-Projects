@@ -2,7 +2,7 @@
 import random
 from replit import clear
 
-stages = [''' 
+stages = ['''
     _ _ _ _ _ _ _ _
       
        +------+
