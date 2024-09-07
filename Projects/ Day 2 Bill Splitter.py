@@ -7,7 +7,7 @@ if tip_percentage in {10, 12, 15, 20}:
     tip_amount = bill * (tip_percentage / 100)
     total = bill + tip_amount
     each_person_should_pay = total / count
-
+ 
     print(f"Total bill amount including {tip_percentage}% tip: ${total:.2f}")
     print(f"Each person should pay: ${each_person_should_pay:.2f}")
 else:
